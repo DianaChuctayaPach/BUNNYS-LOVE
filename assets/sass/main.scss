@@ -1,0 +1,139 @@
+$rosa:#FF7673;
+$turblue:#037F99;
+$font-bonny:'Baloo paaji', cursive;
+@import url('https://fonts.googleapis.com/css?family=Baumans|Ranga');
+
+// *{outline: 1px solid red}
+#nav{
+    background-color: $turblue;
+    padding: 15px;
+    li{
+        a{color: white;font-family: 'Prompt', sans-serif;}
+    }
+    #logo{
+    font-family: 'Baloo paaji', cursive;
+    font-size: 4vw;position: absolute;
+        .uno{
+            color: white;
+        }
+        .dos{
+            color:$rosa;
+        }
+    }
+}
+#plogo{
+    float: left;
+}
+.hero{
+    background-image: url(../img/img-1.jpg);
+    background-size: cover;
+    height: 80vh;
+    background-position: center top;
+    #fondo-azul{
+        background: rgba(3, 128, 153, 0.68);
+        height: 60vh;
+        color: white;
+        .espacio{
+            height: 20vh;
+
+        }
+        .titulo{
+            font-family: $font-bonny;
+            color: $rosa;
+            font-size: 50px;
+        }
+        .footer_oscuro{
+            padding-top: 10%;
+            font-size: 30px;
+            font-family: 'Ranga', cursive;
+        }
+    }
+}
+#seccion2{
+    #texto{
+        background-color: $turblue;
+        color: white;margin-top:20px;
+    img{
+        width: 100%;
+    }
+    #titlecars{
+        color: $rosa;
+        // font-size: 20px;
+        font-family: $font-bonny;
+    }
+    #p{
+        padding: 35px;
+        font-family: 'Baumans', cursive;font-size: 22px;
+    }
+    }
+}
+$colorsec3:#ECF7FB;
+img{width: 100%}
+#seccion3{
+    background-color: $turblue;
+    padding: 20px;
+    iframe{
+        width: 100%;
+        height: 400px;
+    }
+    .search{
+        background: $colorsec3;border-radius: 10px;
+        padding: 15px;
+        margin-bottom: 10px;
+       input{
+        padding: 20px;width: 100%;
+        border-radius: 10px;
+        
+    } 
+    }
+    
+    .caja{
+        background-color: $colorsec3;
+        font-family: 'Baumans', cursive;
+        img{
+            width: 100%;
+        }
+        #cone{
+            height:282px;
+        }
+        #titlecars{
+            color: $rosa;
+            text-align: center;
+            font-family: $font-bonny;
+        }
+        #num{font-size: 20px;margin-left: 10px;font-weight: bold}
+        #vida{
+            font-size: 20px;
+            padding: 25px;
+        }
+        #redes_sociales{
+            padding: 20px;
+           #icon{
+            border-radius: 30px;
+            padding: 10px;
+            color: $turblue;
+            background-color: white;
+            margin: 15px;
+            font-size: 25px;
+        } 
+        }
+        
+    }
+    
+}
+#seccion4{
+    background-image: url(../img/bunny-head.png);
+    height: 15vh;
+    background-size: 15%;
+}
+@media (max-width: 510px){
+   #seccion4{
+       height: 5vh;
+   }
+}
+footer{
+    background-color: $turblue;
+    padding: 20px;
+    color: white;
+   font-size: 20px;
+}

@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css?family=Baumans|Ranga");
+#nav {
+  background-color: #037F99;
+  padding: 15px; }
+  #nav li a {
+    color: white;
+    font-family: 'Prompt', sans-serif; }
+  #nav #logo {
+    font-family: 'Baloo paaji', cursive;
+    font-size: 4vw;
+    position: absolute; }
+    #nav #logo .uno {
+      color: white; }
+    #nav #logo .dos {
+      color: #FF7673; }
+
+#plogo {
+  float: left; }
+
+.hero {
+  background-image: url(../img/img-1.jpg);
+  background-size: cover;
+  height: 80vh;
+  background-position: center top; }
+  .hero #fondo-azul {
+    background: rgba(3, 128, 153, 0.68);
+    height: 60vh;
+    color: white; }
+    .hero #fondo-azul .espacio {
+      height: 20vh; }
+    .hero #fondo-azul .titulo {
+      font-family: "Baloo paaji", cursive;
+      color: #FF7673;
+      font-size: 50px; }
+    .hero #fondo-azul .footer_oscuro {
+      padding-top: 10%;
+      font-size: 30px;
+      font-family: 'Ranga', cursive; }
+
+#seccion2 #texto {
+  background-color: #037F99;
+  color: white;
+  margin-top: 20px; }
+  #seccion2 #texto img {
+    width: 100%; }
+  #seccion2 #texto #titlecars {
+    color: #FF7673;
+    font-family: "Baloo paaji", cursive; }
+  #seccion2 #texto #p {
+    padding: 35px;
+    font-family: 'Baumans', cursive;
+    font-size: 22px; }
+
+img {
+  width: 100%; }
+
+#seccion3 {
+  background-color: #037F99;
+  padding: 20px; }
+  #seccion3 iframe {
+    width: 100%;
+    height: 400px; }
+  #seccion3 .search {
+    background: #ECF7FB;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 10px; }
+    #seccion3 .search input {
+      padding: 20px;
+      width: 100%;
+      border-radius: 10px; }
+  #seccion3 .caja {
+    background-color: #ECF7FB;
+    font-family: 'Baumans', cursive; }
+    #seccion3 .caja img {
+      width: 100%; }
+    #seccion3 .caja #cone {
+      height: 282px; }
+    #seccion3 .caja #titlecars {
+      color: #FF7673;
+      text-align: center;
+      font-family: "Baloo paaji", cursive; }
+    #seccion3 .caja #num {
+      font-size: 20px;
+      margin-left: 10px;
+      font-weight: bold; }
+    #seccion3 .caja #vida {
+      font-size: 20px;
+      padding: 25px; }
+    #seccion3 .caja #redes_sociales {
+      padding: 20px; }
+      #seccion3 .caja #redes_sociales #icon {
+        border-radius: 30px;
+        padding: 10px;
+        color: #037F99;
+        background-color: white;
+        margin: 15px;
+        font-size: 25px; }
+
+#seccion4 {
+  background-image: url(../img/bunny-head.png);
+  height: 15vh;
+  background-size: 15%; }
+
+@media (max-width: 510px) {
+  #seccion4 {
+    height: 5vh; } }
+footer {
+  background-color: #037F99;
+  padding: 20px;
+  color: white;
+  font-size: 20px; }
+
+/*# sourceMappingURL=main.css.map */
