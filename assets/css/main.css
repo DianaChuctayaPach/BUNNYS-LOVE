@@ -14,9 +14,6 @@
     #nav #logo .dos {
       color: #FF7673; }
 
-#plogo {
-  float: left; }
-
 .hero {
   background-image: url(../img/img-1.jpg);
   background-size: cover;
@@ -25,13 +22,14 @@
   .hero #fondo-azul {
     background: rgba(3, 128, 153, 0.68);
     height: 60vh;
-    color: white; }
+    color: white;
+    margin: 30px; }
     .hero #fondo-azul .espacio {
       height: 20vh; }
     .hero #fondo-azul .titulo {
       font-family: "Baloo paaji", cursive;
       color: #FF7673;
-      font-size: 50px; }
+      font-size: 60px; }
     .hero #fondo-azul .footer_oscuro {
       padding-top: 10%;
       font-size: 30px;
@@ -102,7 +100,7 @@ img {
   height: 15vh;
   background-size: 15%; }
 
-@media (max-width: 510px) {
+@media (max-width: 1200px) {
   #seccion4 {
     height: 5vh; } }
 footer {
