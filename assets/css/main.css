@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Baumans|Ranga");
+.navbar-default{
+  border-color: transparent;
+}
 #nav {
   background-color: #037F99;
   padding: 15px; }
